@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("../utils/fonts/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Palace";
+    src: url("../utils/fonts/Palace.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    font-family: "Nunito";
+}

@@ -1,16 +1,15 @@
 import React from "react"; 
 import styles from "./Home.module.css"; 
+import NavBar from "../../components/navbar/NavBar";
+import logoInicial from "../../utils/assets/logoV1.png";
+
 const Home = () => { 
-return ( 
-<> 
-<div className={styles["background-image"]}> 
-<div className={styles["titulo"]}> 
-<h1> Deixe a música <span> sair da caixa</span></h1> 
-<button>Começar</button> 
-</div> 
-</div> 
-</> 
-); 
+    return ( 
+    <> 
+        <NavBar logoInicial={logoInicial}></NavBar>
+        <div className={styles["background-image"]}></div> 
+    </> 
+    ); 
 }; 
 
 export default Home; 
