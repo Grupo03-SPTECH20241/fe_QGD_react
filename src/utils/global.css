@@ -17,3 +17,7 @@ body {
     color: black;
     font-family: "Nunito";
 }
+
+a, span, p {
+    font-family: "Nunito";
+}

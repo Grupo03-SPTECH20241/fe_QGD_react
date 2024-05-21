@@ -29,3 +29,39 @@
 .active {
     background-color: #E3073C !important;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    ul {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    ul {
+        display: none;
+    }
+}
