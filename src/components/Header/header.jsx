@@ -1,22 +1,22 @@
 import React from 'react';
-import styles from './header.module.css';
+import styles from './Header.module.css';
 
-const Header = () => {
+const Header = ({ logoInicial }) => {
     return (
-        <div className={styles.header}>
-            <div className={styles['header-content']}>
-                <div className={styles['header-logo']}>
-                    <h1>Jessica Bolos</h1>
-                </div>
-                <div className={styles['header-navigation']}>
-                        <a href="#">Novidades</a>
-                        <a href="#">Mais vendidos</a>
-                        <a href="#">Avaliações</a>
-                        <a href="#">Sobre nós</a>
-                        <a href="#">Catálogo</a>
-                </div>
-            </div>
-        </div>
+        <nav className={styles["header"]}>
+            <img src={logoInicial} className={styles["logoinicial"]} alt="Logo Inicial" />
+            <ul>
+                <li>
+                    <a href="Proposta">Proposta</a>
+                </li>
+                <li>
+                    <a href="Quem Somos">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
     );
 };
 

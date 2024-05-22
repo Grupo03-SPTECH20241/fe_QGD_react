@@ -1,13 +1,15 @@
 import React from "react"; 
-import styles from "./Home.module.css"; 
-import NavBar from "../../components/navbar/NavBar";
+import styles from "./Home.module.css";
+import Header from "../../components/header/Header";
 import logoInicial from "../../utils/assets/logoV1.png";
+import bannerImg from "../../utils/assets/banner.png"
+import Banner from "../../components/banner/Banner";
 
 const Home = () => { 
     return ( 
     <> 
-        <NavBar logoInicial={logoInicial}></NavBar>
-        <div className={styles["background-image"]}></div> 
+        <Header logoInicial={logoInicial}></Header>
+        <Banner imagemDoBanner={bannerImg}></Banner>
     </> 
     ); 
 }; 

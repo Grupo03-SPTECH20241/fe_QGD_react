@@ -1,54 +1,58 @@
-body {
-  margin: 0;
-}
-
 .header {
-  color: white;
-  height: 80px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.header-content {
+  top: 0;
+  left: 0;
+  height: 8vh;
+  width: 100vw;
+  z-index: 999;
   display: flex;
-  justify-content: space-between;
+  max-height: 8vh;
+  min-height: 6vh;
+  padding: 0.6rem;
   align-items: center;
-  height: 100%;
+  background-color: #00111C;
+  justify-content: space-between;
+  position: sticky;
 }
 
-.header-logo {
+.logo-inicio,
+.logo-fim {
+  outline: none;
   display: flex;
+  margin: 0 11rem;
+  max-height: 80%;
   align-items: center;
 }
 
-@font-face {
-  font-family: "Palace";
-  src: url("../../utils/fonts/Palace.ttf") format("truetype");
+.logo-inicio {
+  cursor: pointer;
 }
 
-.header-logo h1 {
-  font-family: "Palace";
-  font-size: 48px;
-}
-
-@font-face {
-  font-family: "Nunito-Bold";
-  src: url("../../utils/fonts/Nunito-Bold.ttf") format("truetype");
-}
-
-.header-navigation a {
-  font-family: "Nunito-Bold";
-  font-size: 16px;
-}
-
-.header-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.header-navigation a {
-  color: white;
+a {
   text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+  ul {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  ul {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  ul {
+    display: none;
+  }
 }
