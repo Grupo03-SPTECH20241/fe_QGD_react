@@ -1,0 +1,81 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.locationContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.locationMap {
+    width: 40%;
+    display: flex;
+}
+
+.locationInfo {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.locationCard {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #022840, #025373);
+    border-radius: 30px;
+    width: 95%;
+    max-height: 20vh;
+    align-items: center;
+}
+
+.talkCard {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #025E73, #037F8C);
+    border-radius: 30px;
+    width: 95%;
+    max-height: 20vh;
+    margin-top: 1.5vh;
+    align-items: center;
+}
+
+.locationCard img, .talkCard img {
+    width: 15%;
+    height: 50%;
+    margin-left: 2.5vh;
+    right: 0;
+}
+
+.cardText {
+    margin-left: 2.5vh;
+    width: 80%;
+    color: white;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailText {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 850px) {
+    .cardText {
+        font-size: smaller;
+    }
+}
