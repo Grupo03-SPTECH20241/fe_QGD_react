@@ -45,6 +45,15 @@
     margin-right: 5vh;
 }
 
+.proposalText, .missionText {
+    font-size: larger;
+}
+
+@media screen and (max-width: 1000px) {
+    .proposalText, .missionText {
+        font-size: medium;
+    }
+}
 @media screen and (max-width: 750px) {
     .proposalContainer {
         flex-direction: column-reverse;
