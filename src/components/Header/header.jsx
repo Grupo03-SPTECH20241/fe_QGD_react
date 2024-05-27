@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './Header.module.css';
+import headerDropdown from '../../utils/assets/images/header_dropdown_button.jpg'
 
 const Header = ({ logoInicial }) => {
     return (
         <nav className={styles["header"]}>
             <img src={logoInicial} className={styles["logoinicial"]} alt="Logo Inicial" />
-            <ul>
+            <ul className={styles["headerElements"]}>
                 <li>
                     <a href="Proposta">Proposta</a>
                 </li>
@@ -16,6 +17,7 @@ const Header = ({ logoInicial }) => {
                     <a href="Contato">Contato</a>
                 </li>
             </ul>
+            <img src={headerDropdown} className={styles["headerDropdown"]} alt="Botão de dropdown" />
         </nav>
     );
 };

@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     height: 8vh;
-    width: 98.2%;
+    width: 100vm;
     z-index: 999;
     display: flex;
     max-height: 8vh;
@@ -27,6 +27,11 @@
     cursor: pointer;
   }
   
+  .headerDropdown {
+    height: 100%;
+    display: none;
+  }
+
   a {
     text-decoration: none;
     color: white;
@@ -52,7 +57,11 @@
   }
   
   @media screen and (max-width: 650px) {
-    ul {
+    .headerElements {
       display: none;
+    }
+
+    .headerDropdown {
+      display: flex;
     }
   }
