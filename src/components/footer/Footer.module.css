@@ -1,16 +1,18 @@
 .mainContainer {
     width: 100%;
-    height: 20vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 10vh;
     background-color: #00111C;
+    padding: 2%;
 }
 
 .logoinicial {
     width: 20vh;
-    height: 7vh;
-    margin-left: 5vh;
+    height: 6vh;
+    margin-left: 12vh;
+    margin-top: 4vh;
 }
 
 .footerLogo {
@@ -25,9 +27,9 @@
     align-items: center;
     justify-content: center;
     text-align: end;
-    height: 100%;
     color: white;
-    margin-right: 5vh;
+    margin-right: 16vh;
+    margin-top: 1vh;
 }
 
 .footerTerms {
@@ -37,6 +39,7 @@
     width: 80%;
     text-align: end;
     margin-left: 20%;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1150px) {

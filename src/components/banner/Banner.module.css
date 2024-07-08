@@ -11,9 +11,10 @@
 
 .BannerText {
     color: white;
-    width: 37vh;
-    height: 25vh;
-    margin-left: 7.5vh;
+    width: 60vh;
+    height: 15vh;
+    margin-left: 10vh;
+    font-size: 20px;
 }
 
 .BannerBackground {
@@ -28,6 +29,7 @@
     .BannerText {
         margin-top: 7.5vh;
         margin-left: 3.5vh;
+        font-size: 16px;
     }
 }
 

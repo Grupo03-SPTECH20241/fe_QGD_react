@@ -34,7 +34,7 @@ const Contact = () => {
                                         Faculdade São Paulo Tech School
                                     </p>
                                 </div>
-                                <img src={locationCardImage} alt="imagem do card de informção" />
+                                <img src={locationCardImage} alt="imagem do card de informção"/>
                             </div>
 
                             <div className={styles["talkCard"]}>

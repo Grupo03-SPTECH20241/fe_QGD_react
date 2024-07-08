@@ -10,7 +10,7 @@ const Proposal = ({ imgProposal, imgMission }) => {
                     <h2>Nossa Proposta</h2>
                     <p>
                         Com a Quando Geniais se Destacam você vai além! Oferecemos um serviço personalizado para cada cliente, conforme sua necessidade. Entendemos o seu negócio e te auxiliamos a crescer seu negócio exponencialmente! <br />
-                        Somos uma startup focada em soluções tecnológicas que desenvolve plataformas personalizadas para impulsionar o sucesso de pequenos negćicios. Te ajudando a aumentar suas vendas e lucros, fortalecer sua marca no mercado e a realizar a gestão do seu negócio.
+                        Somos uma startup focada em soluções tecnológicas que desenvolve plataformas personalizadas para impulsionar o sucesso de pequenos negćicios. Te ajudamos a aumentar suas vendas e lucros, fortalecer sua marca no mercado e a realizar a gestão do seu negócio.
                     </p>
                 </div>
                 <img src={imgProposal} className={styles["imgProposal"]} alt="Imagem da Proposta" />
